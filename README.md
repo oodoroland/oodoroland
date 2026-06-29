@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./banner.svg" alt="Roland Oodo — Full-Stack Developer" width="100%"/>
+<img src="./banner.svg" alt="Roland Oodo - Full-Stack Developer" width="100%"/>
 </div>
 
 <br/>
@@ -13,9 +13,9 @@
 <br/>
 <br/>
 
-I write application code and own what happens after it ships — VPS provisioning, Nginx, deployment pipelines, SSL, firewall hardening, monitoring, production incidents. Most developers stop at the application layer. I don't.
+I write application code and own what happens after it ships - VPS provisioning, Nginx, deployment pipelines, SSL, firewall hardening, monitoring, production incidents. Most developers stop at the application layer. I don't.
 
-Four years across AI, EdTech, logistics, and service marketplaces. Independent architecture decisions, full codebase migrations, GPT-4o system prompts for shipped product features, junior developers directed — as the sole or lead technical decision-maker, not a staff engineer inside a large org.
+Four years across AI, EdTech, logistics, and service marketplaces. Independent architecture decisions, full codebase migrations, GPT-4o system prompts for shipped product features, junior developers directed - as the sole or lead technical decision-maker, not a staff engineer inside a large org.
 
 <br/>
 
@@ -25,17 +25,17 @@ Four years across AI, EdTech, logistics, and service marketplaces. Independent a
 
 ### `//` What I build
 
-**Backend** &nbsp;—&nbsp; REST APIs with Node.js · Express · TypeScript. Structured for maintainability from day one.
+**Backend** &nbsp;-&nbsp; REST APIs with Node.js · Express · TypeScript. Structured for maintainability from day one.
 
-**Frontend** &nbsp;—&nbsp; React and Next.js. Design systems that hold together across the full UI.
+**Frontend** &nbsp;-&nbsp; React and Next.js. Design systems that hold together across the full UI.
 
-**Databases** &nbsp;—&nbsp; PostgreSQL and MongoDB, modelled around the domain and optimised around real access patterns. Redis for the hot paths.
+**Databases** &nbsp;-&nbsp; PostgreSQL and MongoDB, modelled around the domain and optimised around real access patterns. Redis for the hot paths.
 
-**Infrastructure** &nbsp;—&nbsp; VPS provisioning, Nginx reverse proxy, SSL/TLS, fail2ban, SSH hardening, DNS, Sentry, zero-downtime deployments. Owned end-to-end.
+**Infrastructure** &nbsp;-&nbsp; VPS provisioning, Nginx reverse proxy, SSL/TLS, fail2ban, SSH hardening, DNS, Sentry, zero-downtime deployments. Owned end-to-end.
 
-**AI features** &nbsp;—&nbsp; GPT-4o integrations with production-grade system prompt design. Shipped in two separate products.
+**AI features** &nbsp;-&nbsp; GPT-4o integrations with production-grade system prompt design. Shipped in two separate products.
 
-**Payments** &nbsp;—&nbsp; Paystack and Flutterwave with webhook validation, idempotency keys, escrow flows, and race condition handling.
+**Payments** &nbsp;-&nbsp; Paystack and Flutterwave with webhook validation, idempotency keys, escrow flows, and race condition handling.
 
 <br/>
 
@@ -47,9 +47,9 @@ Four years across AI, EdTech, logistics, and service marketplaces. Independent a
 
 <br/>
 
-**Servyst** &nbsp;·&nbsp; [oodoroland.com](https://oodoroland.com) &nbsp;·&nbsp; *AI-powered local service marketplace — full ownership*
+**Servyst** &nbsp;·&nbsp; [oodoroland.com](https://oodoroland.com) &nbsp;·&nbsp; *AI-powered local service marketplace - full ownership*
 
-Built the entire stack from scratch. Provider dashboards, customer marketplace, booking and payment flow with Paystack escrow — payment held until work is confirmed complete, then released. Dispute resolution. AI-driven provider matching via GPT-4o (scored on service type, location, and profile data). Provisioned and hardened the production VPS. Sole technical decision-maker.
+Built the entire stack from scratch. Provider dashboards, customer marketplace, booking and payment flow with Paystack escrow - payment held until work is confirmed complete, then released. Dispute resolution. AI-driven provider matching via GPT-4o (scored on service type, location, and profile data). Provisioned and hardened the production VPS. Sole technical decision-maker.
 
 ```
 Node.js  ·  Next.js  ·  TypeScript  ·  PostgreSQL  ·  Redis
@@ -58,9 +58,9 @@ Styled Components  ·  Paystack  ·  GPT-4o  ·  Nginx
 
 <br/>
 
-**TRIIBE** &nbsp;·&nbsp; *EdTech platform — technical lead · 150+ active users · 268 job listings*
+**TRIIBE** &nbsp;·&nbsp; *EdTech platform - technical lead · 150+ active users · 268 job listings*
 
-Joined when the product was a static HTML/CSS site. Made the decision to migrate to MERN, then led the full rebuild — social engine, course management, job board, student progress tracking, multi-role dashboards for students, recruiters, and admins. Cloudinary configured with signed server-side upload URLs so files go directly to storage, bypassing the Node.js server entirely. Provisioned and hardened a Contabo VPS from scratch. Directed one junior developer throughout.
+Joined when the product was a static HTML/CSS site. Made the decision to migrate to MERN, then led the full rebuild - social engine, course management, job board, student progress tracking, multi-role dashboards for students, recruiters, and admins. Cloudinary configured with signed server-side upload URLs so files go directly to storage, bypassing the Node.js server entirely. Provisioned and hardened a Contabo VPS from scratch. Directed one junior developer throughout.
 
 ```
 Node.js  ·  React  ·  MongoDB  ·  Redis  ·  Flutterwave  ·  Paystack
@@ -79,7 +79,7 @@ Next.js  ·  TypeScript  ·  Node.js  ·  PostgreSQL
 
 <br/>
 
-**LoubbyAI** &nbsp;·&nbsp; *AI-powered career platform — contract*
+**LoubbyAI** &nbsp;·&nbsp; *AI-powered career platform - contract*
 
 Three concurrent product streams: an AI resume analyser scoring resume-to-job match strength via GPT-4o with specific weakness surfacing; a resume editor with inline AI suggestions behind a payment gate; and a guided builder for users with no existing document. Also owned the frontend for a school leavers job board and the full onboarding flow (registration, OAuth, OTP, profile) for an agent marketplace.
 
@@ -137,7 +137,7 @@ Production incidents          Monitored and resolved independently
 
 ### `//` Writing
 
-Production engineering — decisions made under real constraints. Not tutorials. Things that happened.
+Production engineering - decisions made under real constraints. Not tutorials. Things that happened.
 
 | Post | |
 |:--|:--|
@@ -156,7 +156,7 @@ Production engineering — decisions made under real constraints. Not tutorials.
 
 ### `//` Currently
 
-Building [Servyst](https://servyst.com) — AI-powered local service marketplace for the Nigerian market.
+Building [Servyst](https://servyst.com) - AI-powered local service marketplace for the Nigerian market.
 Available for senior full-stack and backend roles, remote.
 
 <br/>

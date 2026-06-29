@@ -57,7 +57,7 @@
   <!-- dot 2 -->
   <circle cx="512" cy="143" r="1.6" fill="#c8a96e" opacity="0.6"/>
 
-  <!-- segment 3: OPEN TO REMOTE — amber -->
+  <!-- segment 3: OPEN TO REMOTE - amber -->
   <text
     x="526" y="148"
     font-family="'Helvetica Neue', Arial, sans-serif"
