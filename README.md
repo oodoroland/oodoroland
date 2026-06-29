@@ -1,45 +1,21 @@
 <div align="center">
+<img src="./banner.svg" alt="Roland Oodo — Full-Stack Developer" width="100%"/>
+</div>
 
 <br/>
 
-# Roland Oodo
+<div align="center">
 
-**Full-Stack Developer · Production Infrastructure · AI Integration**
-
-*Node.js · React · PostgreSQL · TypeScript · VPS · Nginx*
-
-<br/>
-
-[Portfolio](https://oodoroland.com) &nbsp;·&nbsp; [Writing](https://oodoroland.com/writing) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/roland-uchenna-oodo) &nbsp;·&nbsp; [Email](mailto:roland@oodoroland.com)
-
-<br/>
+[oodoroland.com](https://oodoroland.com) &nbsp;&nbsp;·&nbsp;&nbsp; [Writing](https://oodoroland.com/writing) &nbsp;&nbsp;·&nbsp;&nbsp; [LinkedIn](https://linkedin.com/in/roland-uchenna-oodo) &nbsp;&nbsp;·&nbsp;&nbsp; [roland@oodoroland.com](mailto:roland@oodoroland.com)
 
 </div>
 
----
-
+<br/>
 <br/>
 
-I write application code and I own what happens after it ships - VPS provisioning, Nginx configuration, deployment pipelines, SSL, firewall hardening, monitoring, and production incidents. Most developers stop at the application layer. I don't.
+I write application code and own what happens after it ships — VPS provisioning, Nginx, deployment pipelines, SSL, firewall hardening, monitoring, production incidents. Most developers stop at the application layer. I don't.
 
-Four years of production experience across AI, EdTech, logistics, and service marketplaces. Have made independent architecture decisions, led codebase migrations, designed GPT-4o system prompts for shipped features, and directed junior developers - not as a staff engineer at a large company, but as the sole or lead technical decision-maker on products with real users.
-
-<br/>
-
----
-
-<br/>
-
-## What I build
-
-I work on the full stack, end-to-end:
-
-- **Backends** - REST APIs with Node.js/Express/TypeScript, structured for maintainability from the start
-- **Frontends** - React and Next.js, with design systems that hold together across the UI
-- **Databases** - PostgreSQL and MongoDB, modelled around the domain, optimised around real access patterns
-- **Infrastructure** - VPS provisioning, Nginx reverse proxy, SSL/TLS, fail2ban, SSH hardening, DNS, Redis, Sentry, zero-downtime deployments
-- **AI features** - GPT-4o integrations with production-grade system prompt design; shipped in two separate products
-- **Payments** - Paystack and Flutterwave with webhook validation, idempotency keys, escrow flows, and race condition handling
+Four years across AI, EdTech, logistics, and service marketplaces. Independent architecture decisions, full codebase migrations, GPT-4o system prompts for shipped product features, junior developers directed — as the sole or lead technical decision-maker, not a staff engineer inside a large org.
 
 <br/>
 
@@ -47,62 +23,68 @@ I work on the full stack, end-to-end:
 
 <br/>
 
-## Selected work
+### `//` What I build
+
+**Backend** &nbsp;—&nbsp; REST APIs with Node.js · Express · TypeScript. Structured for maintainability from day one.
+
+**Frontend** &nbsp;—&nbsp; React and Next.js. Design systems that hold together across the full UI.
+
+**Databases** &nbsp;—&nbsp; PostgreSQL and MongoDB, modelled around the domain and optimised around real access patterns. Redis for the hot paths.
+
+**Infrastructure** &nbsp;—&nbsp; VPS provisioning, Nginx reverse proxy, SSL/TLS, fail2ban, SSH hardening, DNS, Sentry, zero-downtime deployments. Owned end-to-end.
+
+**AI features** &nbsp;—&nbsp; GPT-4o integrations with production-grade system prompt design. Shipped in two separate products.
+
+**Payments** &nbsp;—&nbsp; Paystack and Flutterwave with webhook validation, idempotency keys, escrow flows, and race condition handling.
 
 <br/>
 
-**[Servyst](https://github.com/rolix202)** &nbsp;·&nbsp; AI-powered local service marketplace &nbsp;·&nbsp; *Full ownership*
-
-Built the entire stack from scratch: provider dashboards, customer marketplace, booking and payment flow with Paystack escrow (payment held until work is confirmed, then released), dispute resolution, and AI-driven provider recommendations using GPT-4o. Provisioned and hardened the production VPS. Sole technical decision-maker.
-
-`Node.js` `Next.js` `TypeScript` `PostgreSQL` `Redis` `Styled Components` `Paystack` `GPT-4o` `Nginx`
+---
 
 <br/>
 
-**[TRIIBE](https://github.com/rolix202)** &nbsp;·&nbsp; EdTech platform &nbsp;·&nbsp; *Technical lead, 150+ active users*
-
-Joined when the product was a static HTML/CSS site. Made the decision to migrate to MERN, then led the full rebuild - social engine, course management, job board (268 live listings), student progress tracking, and multi-role dashboards. Configured Cloudinary with signed server-side uploads so client uploads go directly to storage. Provisioned and hardened a Contabo VPS from scratch. Directed one junior developer throughout.
-
-`Node.js` `React` `MongoDB` `Redis` `Flutterwave` `Paystack` `Cloudinary` `Sentry` `Nginx` `Contabo VPS`
+### `//` Selected work
 
 <br/>
 
-**[Kriwheel](https://kriwheel.com)** &nbsp;·&nbsp; Nigerian tricycle rider community and safety platform
+**Servyst** &nbsp;·&nbsp; [oodoroland.com](https://oodoroland.com) &nbsp;·&nbsp; *AI-powered local service marketplace — full ownership*
+
+Built the entire stack from scratch. Provider dashboards, customer marketplace, booking and payment flow with Paystack escrow — payment held until work is confirmed complete, then released. Dispute resolution. AI-driven provider matching via GPT-4o (scored on service type, location, and profile data). Provisioned and hardened the production VPS. Sole technical decision-maker.
+
+```
+Node.js  ·  Next.js  ·  TypeScript  ·  PostgreSQL  ·  Redis
+Styled Components  ·  Paystack  ·  GPT-4o  ·  Nginx
+```
+
+<br/>
+
+**TRIIBE** &nbsp;·&nbsp; *EdTech platform — technical lead · 150+ active users · 268 job listings*
+
+Joined when the product was a static HTML/CSS site. Made the decision to migrate to MERN, then led the full rebuild — social engine, course management, job board, student progress tracking, multi-role dashboards for students, recruiters, and admins. Cloudinary configured with signed server-side upload URLs so files go directly to storage, bypassing the Node.js server entirely. Provisioned and hardened a Contabo VPS from scratch. Directed one junior developer throughout.
+
+```
+Node.js  ·  React  ·  MongoDB  ·  Redis  ·  Flutterwave  ·  Paystack
+Cloudinary  ·  Sentry  ·  Zoho Cliq  ·  Nginx  ·  Contabo VPS
+```
+
+<br/>
+
+**Kriwheel** &nbsp;·&nbsp; [kriwheel.com](https://kriwheel.com) &nbsp;·&nbsp; *Nigerian tricycle rider community and safety platform*
 
 Full-stack ownership: Next.js frontend, Node.js/PostgreSQL backend, admin dashboard, and mobile-optimised rider UI with real-time safety incident reporting.
 
-`Next.js` `TypeScript` `Node.js` `PostgreSQL`
+```
+Next.js  ·  TypeScript  ·  Node.js  ·  PostgreSQL
+```
 
 <br/>
 
-**[LoubbyAI](https://github.com/rolix202)** &nbsp;·&nbsp; AI-powered career platform &nbsp;·&nbsp; *Contract*
+**LoubbyAI** &nbsp;·&nbsp; *AI-powered career platform — contract*
 
-Owned delivery of three concurrent product streams: an AI resume analyser (GPT-4o scoring resume-to-job match strength and surfacing specific weaknesses), a resume editor with inline AI suggestions behind a payment gate, and a guided resume builder for users with no existing document. Also owned the frontend for a school leavers job board and the backend for an agent marketplace onboarding flow.
-
-`React` `Next.js` `Node.js` `GPT-4o` `PostgreSQL`
-
-<br/>
-
----
-
-<br/>
-
-## Infrastructure I've owned
-
-Most engineers hand off to DevOps. I configure and maintain it:
+Three concurrent product streams: an AI resume analyser scoring resume-to-job match strength via GPT-4o with specific weakness surfacing; a resume editor with inline AI suggestions behind a payment gate; and a guided builder for users with no existing document. Also owned the frontend for a school leavers job board and the full onboarding flow (registration, OAuth, OTP, profile) for an agent marketplace.
 
 ```
-VPS provisioning (Contabo, Hostinger)
-Nginx reverse proxy + SSL/TLS termination
-Firewall configuration - blocked all non-Nginx-facing ports
-SSH hardening - root login disabled, password auth disabled
-fail2ban installation and configuration
-DNS configuration and management
-PM2 process management + zero-downtime deployments
-Sentry error monitoring
-Redis caching for high-frequency read requests
-Google Search Console + analytics setup
-Production incident response
+React  ·  Next.js  ·  Node.js  ·  GPT-4o  ·  PostgreSQL
 ```
 
 <br/>
@@ -111,17 +93,41 @@ Production incident response
 
 <br/>
 
-## Stack
+### `//` Infrastructure I've owned
 
-| Layer | Technologies |
-|---|---|
+Most engineers stop at the application boundary. This is what I configure and maintain:
+
+```
+VPS provisioning              Contabo, Hostinger
+Nginx                         Reverse proxy, SSL/TLS termination
+Firewall                      All non-Nginx-facing ports blocked
+SSH hardening                 Root login disabled, password auth disabled
+fail2ban                      Installed and configured
+DNS                           Configuration and ongoing management
+PM2                           Process management, zero-downtime deploys
+Sentry                        Error monitoring and alerting
+Redis                         Caching for high-frequency read paths
+Search Console                Page-level SEO, analytics setup
+Production incidents          Monitored and resolved independently
+```
+
+<br/>
+
+---
+
+<br/>
+
+### `//` Stack
+
+| | |
+|:--|:--|
 | **Backend** | Node.js, Express.js, TypeScript, JavaScript ES6+ |
 | **Frontend** | React, Next.js, Tailwind CSS, Styled Components |
 | **Databases** | PostgreSQL, MongoDB, Redis |
-| **Auth & Security** | JWT, Session management, RBAC, Google OAuth |
+| **Auth & Security** | JWT, Sessions, RBAC, Google OAuth, Data encryption |
 | **Infrastructure** | VPS (Contabo, Hostinger), Nginx, SSL/TLS, fail2ban |
 | **DevOps** | Git, PM2, Vercel, Render, Sentry, zero-downtime deploys |
-| **AI & Integrations** | OpenAI API (GPT-4o), Paystack, Flutterwave, Cloudinary |
+| **AI & Integrations** | OpenAI (GPT-4o), Paystack, Flutterwave, Cloudinary |
 
 <br/>
 
@@ -129,18 +135,18 @@ Production incident response
 
 <br/>
 
-## Writing
+### `//` Writing
 
-Not tutorials. Things that actually happened - production incidents, decisions made under pressure, what I'd do differently.
+Production engineering — decisions made under real constraints. Not tutorials. Things that happened.
 
-| | |
-|---|---|
-| **[Why We Chose a PWA Instead of a Native App After Launch](https://www.oodoroland.com/writing/why-we-chose-a-pwa-instead-of-a-native-app-after-launch)** | Architecture · Jun 26, 2026 |
-| **[Production Breakage After RestCountries API Deprecation](https://www.oodoroland.com/writing/production-breakage-after-restcountries-api-deprecation-v5-migration-and-caching-fix)** | Production incident · Jun 19, 2026 |
-| **[How Production Endpoint Probing Changed Our Backend Security Thinking](https://www.oodoroland.com/writing/how-production-endpoint-probing-changed-our-backend-security-thinking)** | Production incident · Jun 9, 2026 |
-| **[Fix 413 Request Too Large in Nginx (Node.js Uploads)](https://www.oodoroland.com/writing/fix-413-request-too-large-in-nginx-nodejs-uploads)** | Production incident · Jun 9, 2026 |
+| Post | |
+|:--|:--|
+| [Why We Chose a PWA Instead of a Native App After Launch](https://www.oodoroland.com/writing/why-we-chose-a-pwa-instead-of-a-native-app-after-launch) | Architecture · Jun 2026 |
+| [Production Breakage After RestCountries API Deprecation](https://www.oodoroland.com/writing/production-breakage-after-restcountries-api-deprecation-v5-migration-and-caching-fix) | Production incident · Jun 2026 |
+| [How Production Endpoint Probing Changed Our Backend Security Thinking](https://www.oodoroland.com/writing/how-production-endpoint-probing-changed-our-backend-security-thinking) | Production incident · Jun 2026 |
+| [Fix 413 Request Too Large in Nginx (Node.js Uploads)](https://www.oodoroland.com/writing/fix-413-request-too-large-in-nginx-nodejs-uploads) | Production incident · Jun 2026 |
 
-→ [All posts](https://oodoroland.com/writing) &nbsp;·&nbsp; [Medium (@rocodeify)](https://medium.com/@rocodeify)
+→ [All posts](https://oodoroland.com/writing) &nbsp;·&nbsp; [Medium @rocodeify](https://medium.com/@rocodeify)
 
 <br/>
 
@@ -148,9 +154,9 @@ Not tutorials. Things that actually happened - production incidents, decisions m
 
 <br/>
 
-## Currently
+### `//` Currently
 
-Building [Servyst](https://oodoroland.com) - an AI-powered local service marketplace for the Nigerian market.  
+Building [Servyst](https://servyst.com) — AI-powered local service marketplace for the Nigerian market.
 Available for senior full-stack and backend roles, remote.
 
 <br/>
@@ -158,12 +164,7 @@ Available for senior full-stack and backend roles, remote.
 ---
 
 <div align="center">
-
 <br/>
-
-**roland@oodoroland.com** &nbsp;·&nbsp; **[oodoroland.com](https://oodoroland.com)**
-
-<br/>
-
+<sub><a href="mailto:roland@oodoroland.com">roland@oodoroland.com</a> &nbsp;·&nbsp; <a href="https://oodoroland.com">oodoroland.com</a></sub>
+<br/><br/>
 </div>
-"# oodoroland" 
